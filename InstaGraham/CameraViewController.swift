@@ -19,7 +19,7 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         
         let vc = UIImagePickerController()
         vc.delegate = self
-        vc.sourceType = UIImagePickerControllerSourceType.Camera
+        vc.sourceType = UIImagePickerControllerSourceType.PhotoLibrary
         
         self.presentViewController(vc, animated: true, completion:  nil)
         
@@ -50,7 +50,7 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         let originalImage = info[UIImagePickerControllerOriginalImage] as! UIImage
         //let editedImage = info[UIImagePickerControllerEditedImage] as! UIImage
         
-        PictureImageView.image = resize(originalImage, newSize: CGSize(width: 240, height: 240))
+        PictureImageView.image = resize(originalImage, newSize: CGSize(width: 120, height: 120))
         
         
         dismissViewControllerAnimated(true, completion: nil)

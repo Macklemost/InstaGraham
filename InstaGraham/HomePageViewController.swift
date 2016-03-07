@@ -55,12 +55,12 @@ class HomePageViewController: UIViewController, UITableViewDataSource, UITableVi
 
     }
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        print(posts?.count)
-        if posts != nil {
-        return (posts?.count)!
+        if let posts = posts {
+            print(posts.count)
+            return posts.count
         } else {
             return 0
         }
-        }
+    }
 
 }

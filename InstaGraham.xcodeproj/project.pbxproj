@@ -17,6 +17,7 @@
 		591C36301C8BEDF4007E10F9 /* instaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591C362F1C8BEDF4007E10F9 /* instaCell.swift */; };
 		591C36321C8C0F8B007E10F9 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591C36311C8C0F8B007E10F9 /* CameraViewController.swift */; };
 		591C36341C8C1366007E10F9 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591C36331C8C1366007E10F9 /* Post.swift */; };
+		591C36361C8D47BD007E10F9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591C36351C8D47BC007E10F9 /* ProfileViewController.swift */; };
 		7D82DAD18E99E7454EC5618F /* Pods_InstaGraham.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFF00C7D42314F4E8C3E9F4 /* Pods_InstaGraham.framework */; };
 		C6928410005101B3E6C47D37 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EEEB1640E389792D051E0BC /* Pods.framework */; };
 /* End PBXBuildFile section */
@@ -35,6 +36,7 @@
 		591C362F1C8BEDF4007E10F9 /* instaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = instaCell.swift; sourceTree = "<group>"; };
 		591C36311C8C0F8B007E10F9 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		591C36331C8C1366007E10F9 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		591C36351C8D47BC007E10F9 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		8B693C34C8E98E8CC5E468E7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		B44AC890E5D85477D5A8F83B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		BCFF00C7D42314F4E8C3E9F4 /* Pods_InstaGraham.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaGraham.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,6 +104,7 @@
 				591C362D1C8BE693007E10F9 /* HomePageViewController.swift */,
 				591C362F1C8BEDF4007E10F9 /* instaCell.swift */,
 				591C36311C8C0F8B007E10F9 /* CameraViewController.swift */,
+				591C36351C8D47BC007E10F9 /* ProfileViewController.swift */,
 			);
 			name = VC;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 				591C36191C87D5EE007E10F9 /* AppDelegate.swift in Sources */,
 				591C36301C8BEDF4007E10F9 /* instaCell.swift in Sources */,
 				591C36341C8C1366007E10F9 /* Post.swift in Sources */,
+				591C36361C8D47BD007E10F9 /* ProfileViewController.swift in Sources */,
 				591C36321C8C0F8B007E10F9 /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
